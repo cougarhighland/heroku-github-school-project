@@ -3,7 +3,6 @@ const app = express();
 const PORT = process.env.PORT || 1337;
 
 
-
 //omitted express.json() to show difference
 
 app.use(express.json());
